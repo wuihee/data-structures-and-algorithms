@@ -55,22 +55,3 @@ def partition(array, low, high):
     # Swap the pivot with i + 1 and return the pivot's new position.
     array[i + 1], array[high] = array[high], array[i + 1]
     return i + 1
-
-
-def stress_test():
-    for i in range(1000):
-        array = random.sample(range(0, 20), 7)
-        quicksort_ans = array
-        quicksort(quicksort_ans, 0, len(array) - 1)
-        correct_ans = sorted(array)
-
-        if quicksort_ans != correct_ans:
-            print('Wrong')
-            print(f'array: {array}')
-            print(f'correct answer: {correct_ans}')
-            print(f'quicksort: {quicksort_ans}')
-            break
-        print('Correct')
-
-
-stress_test()

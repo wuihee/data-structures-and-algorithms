@@ -59,22 +59,3 @@ def partition(array, low, high):
 
     array[high], array[i] = array[i], array[high]
     return start, i
-
-
-def stress_test():
-    for i in range(1000):
-        array = random.sample(range(0, 20), 7)
-        quicksort_ans = array
-        quicksort(quicksort_ans, 0, len(array) - 1)
-        correct_ans = sorted(array)
-
-        if quicksort_ans != correct_ans:
-            print('Wrong')
-            print(f'array: {array}')
-            print(f'correct answer: {correct_ans}')
-            print(f'quicksort: {quicksort_ans}')
-            break
-        print('Correct')
-
-
-stress_test()

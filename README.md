@@ -24,3 +24,6 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Merge Sort](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/merge_sort.py)
 - [Quicksort (2-Way Partition)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/quicksort.py)
 - [Quicksort (3-Way Partition)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/quicksort_3.py)
+
+### Greedy
+- [Fractional Knapsack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/fractional_knapsack.py)

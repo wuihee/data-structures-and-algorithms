@@ -37,3 +37,4 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Interval Scheduling](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/interval_scheduling.py)
 - [Job Sequencing](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/job_sequencing.py)
 - [Optimal Merge Pattern](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/optimal_merge_pattern.py)
+- [Huffman Coding](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/huffman_coding.py)

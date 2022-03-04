@@ -1,8 +1,11 @@
 # Data Structures & Algorithms
+
 My Python implementation of data structures and algorithms. Work in progress.
 
 ## Data Structures
+
 ### Implementations
+
 - [Dynamic Array](https://github.com/wuihee/data-structures-and-algorithms/blob/main/data-structures/implementations/dynamic_array.py)
 - [Stack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/data-structures/implementations/stack.py)
 - [Queue](https://github.com/wuihee/data-structures-and-algorithms/blob/main/data-structures/implementations/queue.py)
@@ -14,10 +17,13 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Hash Table (Open Addressing)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/data-structures/implementations/hashtable_open_addressing.py)
 
 ### Priority Queue
+
 - [Heap Sort](https://github.com/wuihee/data-structures-and-algorithms/blob/main/data-structures/priority_queue/heap_sort.py)
 
 ## Programming Paradigm
+
 ### Divide and Conquer
+
 - [Binary Search (Iterative)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/binary_search_iterative.py)
 - [Binary Search (Recursive)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/binary_search_recursive.py)
 - [Maximum Sub-Array](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/max_subarray.py)
@@ -26,6 +32,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Quicksort (3-Way Partition)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/quicksort_3.py)
 
 ### Greedy
+
 - [Fractional Knapsack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/fractional_knapsack.py)
 - [Interval Scheduling](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/interval_scheduling.py)
 - [Job Sequencing](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/greedy/job_sequencing.py)

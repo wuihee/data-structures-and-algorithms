@@ -43,8 +43,8 @@ def knights_tour(n, board, curr_x, curr_y, moves):
     """
     A recursive utility function to solve the Knight's Tour problem.
 
-    Parameters:
-    -----------
+    Parameters
+    ----------
     n : Length of board
     board : 2D matrix where the value of board[i][j] tells us whether or not
             the knight has travelled to the current square.

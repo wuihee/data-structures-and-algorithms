@@ -42,3 +42,4 @@ My Python implementation of data structures and algorithms. Work in progress.
 ### Backtracking
 
 - [Knight's Tour](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/backtracking/knights_tour.py)
+- [N-Queens](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/backtracking/n_queens.py)

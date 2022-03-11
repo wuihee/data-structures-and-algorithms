@@ -37,7 +37,7 @@ def is_safe(board, row, col):
     return True
 
 
-def queens_aux(N):
+def n_queens_aux(N):
     """
     Auxilliary function to help start N-Queens problem.
 
@@ -97,4 +97,4 @@ def n_queens(board, row):
     return False
 
 
-print(queens_aux(5))
+print(n_queens_aux(5))

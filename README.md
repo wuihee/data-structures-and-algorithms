@@ -24,8 +24,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ### Divide and Conquer
 
-- [Binary Search (Iterative)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/binary_search_iterative.py)
-- [Binary Search (Recursive)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/binary_search_recursive.py)
+- [Binary Search](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/binary_search.py)
 - [Maximum Sub-Array](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/max_subarray.py)
 - [Merge Sort](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/merge_sort.py)
 - [Quicksort (2-Way Partition)](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/divide-and-conquer/quicksort.py)

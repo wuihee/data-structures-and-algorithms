@@ -43,3 +43,6 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Knight's Tour](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/backtracking/knights_tour.py)
 - [N-Queens](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/backtracking/n_queens.py)
 - [Sum of Subsets](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/backtracking/sum_of_subsets.py)
+- [Rat in a Maze](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/backtracking/rat_in_a_maze.py)
+
+### Dynamic Programming

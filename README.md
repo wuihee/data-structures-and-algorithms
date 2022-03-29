@@ -46,3 +46,5 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Rat in a Maze](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/backtracking/rat_in_a_maze.py)
 
 ### Dynamic Programming
+
+- [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dyanmic_programming/rod_cutting.py)

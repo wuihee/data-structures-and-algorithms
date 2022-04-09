@@ -51,4 +51,5 @@ My Python implementation of data structures and algorithms. Work in progress.
 
     Min. / Max. Way to Reach a Path
 
-  - [Coin Change](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dyanmic_programming/coin_change.py)
+  - [Coin Change](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dyanmic_programming/min_max_path/coin_change.py)
+  - [Triangle](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dyanmic_programming/min_max_path/triangle.py)

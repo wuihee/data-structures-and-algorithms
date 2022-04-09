@@ -47,9 +47,9 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ### Dynamic Programming
 
-- [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dyanmic_programming/rod_cutting.py)
+- [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/rod_cutting.py)
 
     Min. / Max. Way to Reach a Path
 
-  - [Coin Change](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dyanmic_programming/min_max_path/coin_change.py)
-  - [Triangle](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dyanmic_programming/min_max_path/triangle.py)
+  - [Coin Change](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/coin_change.py)
+  - [Triangle](htthttps://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/triangle.py)

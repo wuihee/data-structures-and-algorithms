@@ -1,4 +1,6 @@
 """
+Coin Change
+
 Given a sum of money and a list of coin demoniations available, find the
 minimum number of coins that can be used to change the sum of money.
 """

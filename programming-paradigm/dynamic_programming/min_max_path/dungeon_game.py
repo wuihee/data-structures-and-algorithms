@@ -8,28 +8,79 @@ greater than 0 health.
 """
 
 
-def calc_min_HP_naive(dungeon, row, col):
+def calc_HP_naive(dungeon, r, c):
     """
     Naive recursive solution.
+    
+    Each function call returns the inimum HP required to go from position
+    (r, c) to the end.
 
     Parameters
     ----------
     dungeon : Input matrix.
-    row : Current row position.
-    col : Current column position.
+    r : Current row position.
+    c : Current column position.
     """
 
     m = len(dungeon)
     n = len(dungeon[0])
 
-    if row == m - 1 and col == n - 1:
-        return dungeon[row][col]
+    # Base case: if position exceeds the matrix, return infinity.
+    if r == m or c == n:
+        return float('inf')
+    
+    # Base case: if position is at the end, return the minimum health required
+    # to survive on that cell.
+    if r == m - 1 and c == n - 1:
+        return -dungeon[r][c] + 1 if dungeon[r][c] <= 0 else 1
 
-    path_1 = path_2 = float('inf')
-    if row < m - 1:
-        path_1 = calc_min_HP_naive(dungeon, row + 1, col)
-    if col < n - 1:
-        path_2 = calc_min_HP_naive(dungeon, row, col + 1)
+    # Head recursion: recurse all the way to the bottom and from there work
+    # back up to the solution.
+    go_right = calc_HP_naive(dungeon, r, c + 1)
+    go_left = calc_HP_naive(dungeon, r + 1, c)
 
-    min_path = min(path_1, path_2) + dungeon[row][col]
-    return 1 - min_path
+    # Take the minimum path found so far and adjust the minimum HP required
+    # to account for the current cell.
+    min_HP_req = min(go_right, go_left) - dungeon[r][c]
+
+    # If min_HP_req < 0, it means only 1 HP is required.
+    return min_HP_req if min_HP_req > 0 else 1
+
+
+def calc_HP_rec(dungeon, dp, r, c):
+    """
+    Recursive dynamic programming solution.
+
+    Paramters
+    ---------
+    dungeon : Input matrix.
+    dp : Dynamic programming table.
+    r : Current row position.
+    c : Current column position. 
+    """
+
+    n = len(dungeon)
+    m = len(dungeon[0])
+
+    # Base case: if position exceeds the matrix, return infinity.
+    if r == m or c == n:
+        return float('inf')
+
+    # Base case: if position is at the end, return the minimum health required
+    # to survive on that cell.
+    if r == m - 1 and c == n - 1:
+        return -dungeon[r][c] + 1 if dungeon[r][c] <= 0 else 1
+
+    # If the solution is already found in the dp table, return it.
+    if dp[r][c] != float('inf'):
+        return dp[r][c]
+
+    # Head recursion: recurse all the way to the bottom and from there work
+    # back up to the solution.
+    go_right = calc_HP_rec(dungeon, dp, r, c + 1)
+    go_left = calc_HP_rec(dungeon, dp, r + 1, c)
+    min_HP_req = min(go_right, go_left) - dungeon[r][c]
+
+    # Add solution to the dp table.
+    dp[r][c] = 1 if min_HP_req <= 0 else min_HP_req
+    return dp[r][c]

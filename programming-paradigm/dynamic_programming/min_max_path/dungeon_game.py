@@ -84,3 +84,25 @@ def calc_HP_rec(dungeon, dp, r, c):
     # Add solution to the dp table.
     dp[r][c] = 1 if min_HP_req <= 0 else min_HP_req
     return dp[r][c]
+
+
+def calc_HP(dungeon):
+    """
+    Bottom-up dynamic programming solution.
+
+    Paramters
+    ---------
+    dungeon : Input matrix
+    """
+
+    m = len(dungeon)
+    n = len(dungeon[0])
+
+    dp = [[float('inf') for _ in range(n + 1)] for _ in range(m + 1)]
+    dp[m][n - 1] = dp[m - 1][n] = 0
+
+    for r in range(m - 1, -1, -1):
+        for c in range(n - 1, -1, -1):
+            dp = max(min(dp[r][c + 1], dp[r + 1][c]), 0)
+
+    return dp[0][0] + 1

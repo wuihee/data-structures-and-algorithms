@@ -55,3 +55,4 @@ My Python implementation of data structures and algorithms. Work in progress.
   - [Coin Change](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/coin_change.py)
   - [Triangle](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/triangle.py)
   - [Dungeon Game](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/dungeon_game.py)
+  - [Maximal Square](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/maximal_square.py)

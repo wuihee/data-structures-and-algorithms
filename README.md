@@ -57,3 +57,4 @@ My Python implementation of data structures and algorithms. Work in progress.
   - [Dungeon Game](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/dungeon_game.py)
   - [Maximal Square](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/maximal_square.py)
   - [Perfect Squares](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/perfect_squares.py)
+  - [Ones and Zeros](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/ones_and_zeros.py)

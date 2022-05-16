@@ -48,6 +48,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 ### Dynamic Programming
 
 - [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/rod_cutting.py)
+- [0-1 Knapsack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/knapsack_0-1.py)
 
     Min. / Max. Way to Reach a Path
 
@@ -59,3 +60,4 @@ My Python implementation of data structures and algorithms. Work in progress.
   - [Perfect Squares](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/perfect_squares.py)
   - [Ones and Zeros](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/ones_and_zeros.py)
   - [2 Key Keyboard](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/keyboard.py)
+  - [Minimum Refuels](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/min_refuels.py)

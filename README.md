@@ -61,3 +61,7 @@ My Python implementation of data structures and algorithms. Work in progress.
   - [Ones and Zeros](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/ones_and_zeros.py)
   - [2 Key Keyboard](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/keyboard.py)
   - [Minimum Refuels](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/min_refuels.py)
+
+    Distinct Ways
+  - [Target Sum](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/target_sum.py)
+  - [Out of Boundary Paths](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/boundary_paths.py)

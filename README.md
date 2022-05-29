@@ -49,6 +49,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 - [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/rod_cutting.py)
 - [0-1 Knapsack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/knapsack_0-1.py)
+- [Longest Increasing Subsequence](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/LIS.py)
 
     Min. / Max. Way to Reach a Path
 
@@ -63,5 +64,6 @@ My Python implementation of data structures and algorithms. Work in progress.
   - [Minimum Refuels](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/min_refuels.py)
 
     Distinct Ways
+
   - [Target Sum](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/target_sum.py)
   - [Out of Boundary Paths](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/boundary_paths.py)

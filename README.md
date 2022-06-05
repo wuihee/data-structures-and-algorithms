@@ -67,3 +67,4 @@ My Python implementation of data structures and algorithms. Work in progress.
 
   - [Target Sum](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/target_sum.py)
   - [Out of Boundary Paths](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/boundary_paths.py)
+  - [Domino and Tromino Tiling](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/tiling.py)

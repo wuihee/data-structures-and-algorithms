@@ -47,11 +47,13 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ### Dynamic Programming
 
+  Classic Problems
+
 - [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/rod_cutting.py)
 - [0-1 Knapsack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/knapsack_0-1.py)
 - [Longest Increasing Subsequence](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/LIS.py)
 
-    Min. / Max. Way to Reach a Path
+  Min. / Max. Way to Reach a Path
 
   - [Minimum Path Sum](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/min_path_sum.py)
   - [Coin Change](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/coin_change.py)
@@ -63,7 +65,7 @@ My Python implementation of data structures and algorithms. Work in progress.
   - [2 Key Keyboard](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/keyboard.py)
   - [Minimum Refuels](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/min_max_path/min_refuels.py)
 
-    Distinct Ways
+  Distinct Ways
 
   - [Target Sum](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/target_sum.py)
   - [Out of Boundary Paths](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/distinct_ways/boundary_paths.py)

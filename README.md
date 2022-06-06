@@ -49,9 +49,10 @@ My Python implementation of data structures and algorithms. Work in progress.
 
   Classic Problems
 
-- [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/rod_cutting.py)
-- [0-1 Knapsack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/knapsack_0-1.py)
-- [Longest Increasing Subsequence](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/LIS.py)
+- [Rod Cutting Problem](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/classic_problems/rod_cutting.py)
+- [0-1 Knapsack](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/classic_problems/knapsack_0-1.py)
+- [Longest Increasing Subsequence](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/classic_problems/LIS.py)
+- [Edit Distance](https://github.com/wuihee/data-structures-and-algorithms/blob/main/programming-paradigm/dynamic_programming/classic_problems/edit_distance.py)
 
   Min. / Max. Way to Reach a Path
 

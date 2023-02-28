@@ -74,6 +74,10 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ## Graph Theory
 
+### Basics
+
+- [Tree Traversals](./graph-theory/tree_traversal.py)
+
 ### Single-Source Shortest Path (SSSP)
 
 ### All-Pairs Shortest Path (APSP)

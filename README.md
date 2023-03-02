@@ -83,3 +83,8 @@ My Python implementation of data structures and algorithms. Work in progress.
 ### All-Pairs Shortest Path (APSP)
 
 - [Floyd Warshall](./graph-theory/floyd_warshall.py)
+
+## Miscellaneous
+
+- [Sliding Window](./misc/sliding_window.py)
+- [Two Pointers](./misc/two_pointers.py)

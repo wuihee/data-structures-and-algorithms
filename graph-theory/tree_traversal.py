@@ -33,8 +33,8 @@ def preorder(root):
     """
     if root:
         print(root.val)
-        inorder(root.left)
-        inorder(root.right)
+        preorder(root.left)
+        preorder(root.right)
 
 
 def postorder(root):
@@ -47,6 +47,6 @@ def postorder(root):
     Used for deleting the tree.
     """
     if root:
-        inorder(root.left)
-        inorder(root.right)
+        postorder(root.left)
+        postorder(root.right)
         print(root.val)

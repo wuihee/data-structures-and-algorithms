@@ -97,7 +97,11 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ### Fibonacci
 
+- [Pisano Period](./math/fibonacci/pisano_period.py)
+
 ### Primality Testing
+
+- [Sieve of Eratosthenes](./math/primality/sieve_of_eratosthenes.py)
 
 ## Miscellaneous
 

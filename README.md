@@ -84,6 +84,21 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 - [Floyd Warshall](./graph-theory/floyd_warshall.py)
 
+## Math
+
+### Basic Algorithms
+
+- [Euclidean GCD](./math/basic/euclidean_gcd.py)
+
+### Factorization
+
+- [Naive Factorization](./math/factorization/naive_factorize.py)
+- [Pollard's Rho Algorithm](./math/factorization/rho.py)
+
+### Fibonacci
+
+### Primality Testing
+
 ## Miscellaneous
 
 - [Sliding Window](./misc/sliding_window.py)

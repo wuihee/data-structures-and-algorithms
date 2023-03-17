@@ -48,30 +48,30 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ### Dynamic Programming
 
-  Classic Problems
+#### Classic Problems
 
 - [Rod Cutting Problem](./programming-paradigm/dynamic_programming/classic_problems/rod_cutting.py)
 - [0-1 Knapsack](./programming-paradigm/dynamic_programming/classic_problems/knapsack_0-1.py)
 - [Longest Increasing Subsequence](./programming-paradigm/dynamic_programming/classic_problems/LIS.py)
 - [Edit Distance](./programming-paradigm/dynamic_programming/classic_problems/edit_distance.py)
 
-  Min. / Max. Way to Reach a Path
+#### Min. / Max. Way to Reach a Path
 
-  - [Minimum Path Sum](./programming-paradigm/dynamic_programming/min_max_path/min_path_sum.py)
-  - [Coin Change](./programming-paradigm/dynamic_programming/min_max_path/coin_change.py)
-  - [Triangle](./programming-paradigm/dynamic_programming/min_max_path/triangle.py)
-  - [Dungeon Game](./programming-paradigm/dynamic_programming/min_max_path/dungeon_game.py)
-  - [Maximal Square](./programming-paradigm/dynamic_programming/min_max_path/maximal_square.py)
-  - [Perfect Squares](./programming-paradigm/dynamic_programming/min_max_path/perfect_squares.py)
-  - [Ones and Zeros](./programming-paradigm/dynamic_programming/min_max_path/ones_and_zeros.py)
-  - [2 Key Keyboard](./programming-paradigm/dynamic_programming/min_max_path/keyboard.py)
-  - [Minimum Refuels](./programming-paradigm/dynamic_programming/min_max_path/min_refuels.py)
+- [Minimum Path Sum](./programming-paradigm/dynamic_programming/min_max_path/min_path_sum.py)
+- [Coin Change](./programming-paradigm/dynamic_programming/min_max_path/coin_change.py)
+- [Triangle](./programming-paradigm/dynamic_programming/min_max_path/triangle.py)
+- [Dungeon Game](./programming-paradigm/dynamic_programming/min_max_path/dungeon_game.py)
+- [Maximal Square](./programming-paradigm/dynamic_programming/min_max_path/maximal_square.py)
+- [Perfect Squares](./programming-paradigm/dynamic_programming/min_max_path/perfect_squares.py)
+- [Ones and Zeros](./programming-paradigm/dynamic_programming/min_max_path/ones_and_zeros.py)
+- [2 Key Keyboard](./programming-paradigm/dynamic_programming/min_max_path/keyboard.py)
+- [Minimum Refuels](./programming-paradigm/dynamic_programming/min_max_path/min_refuels.py)
 
-  Distinct Ways
+#### Distinct Ways
 
-  - [Target Sum](./programming-paradigm/dynamic_programming/distinct_ways/target_sum.py)
-  - [Out of Boundary Paths](./programming-paradigm/dynamic_programming/distinct_ways/boundary_paths.py)
-  - [Domino and Tromino Tiling](./programming-paradigm/dynamic_programming/distinct_ways/tiling.py)
+- [Target Sum](./programming-paradigm/dynamic_programming/distinct_ways/target_sum.py)
+- [Out of Boundary Paths](./programming-paradigm/dynamic_programming/distinct_ways/boundary_paths.py)
+- [Domino and Tromino Tiling](./programming-paradigm/dynamic_programming/distinct_ways/tiling.py)
 
 ## Graph Theory
 
@@ -84,6 +84,25 @@ My Python implementation of data structures and algorithms. Work in progress.
 ### All-Pairs Shortest Path (APSP)
 
 - [Floyd Warshall](./graph-theory/floyd_warshall.py)
+
+## Math
+
+### Basic Algorithms
+
+- [Euclidean GCD](./math/basic/euclidean_gcd.py)
+
+### Factorization
+
+- [Naive Factorization](./math/factorization/naive_factorize.py)
+- [Pollard's Rho Algorithm](./math/factorization/rho.py)
+
+### Fibonacci
+
+- [Pisano Period](./math/fibonacci/pisano_period.py)
+
+### Primality Testing
+
+- [Sieve of Eratosthenes](./math/primality/sieve_of_eratosthenes.py)
 
 ## Miscellaneous
 

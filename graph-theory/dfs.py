@@ -1,6 +1,6 @@
 class Node:
+    """This is the structure of a Node object."""
     def __init__(self, val=0, right=None, left=None):
-        """This is the structure of a Node object."""
         self.val = val
         self.right = right
         self.left = left

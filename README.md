@@ -13,6 +13,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Priority Queue](./data-structures/implementations/priority_queue.py)
 - [Union Find](./data-structures/implementations/union_find.py)
 - [Binary Search Tree](./data-structures/implementations/binary_search_tree.py)
+- [Trie](./data-structures/implementations/trie.py)
 - [Hash Table (Separate Chaining)](./data-structures/implementations/hashtable_separate_chaining.py)
 - [Hash Table (Open Addressing)](./data-structures/implementations/hashtable_open_addressing.py)
 
@@ -76,7 +77,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ### Basics
 
-- [Tree Traversals](./graph-theory/tree_traversal.py)
+- [Depth-First Search](./graph-theory/dfs.py)
 
 ### Single-Source Shortest Path (SSSP)
 

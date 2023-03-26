@@ -78,12 +78,16 @@ My Python implementation of data structures and algorithms. Work in progress.
 ### Basics
 
 - [Depth-First Search](./graph-theory/dfs.py)
+- [Strongly Connected Components](./graph-theory/tarjan.py)
 
 ### Single-Source Shortest Path (SSSP)
 
+- [Dijkstra's](./graph-theory//single-source-shortest-path/dijkstra.py)
+- [Bellman-Ford](./graph-theory/single-source-shortest-path/bellman_ford.py)
+
 ### All-Pairs Shortest Path (APSP)
 
-- [Floyd Warshall](./graph-theory/floyd_warshall.py)
+- [Floyd Warshall](./graph-theory/all-pairs-shortest-path/floyd_warshall.py)
 
 ## Math
 

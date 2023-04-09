@@ -77,8 +77,9 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 ### Basics
 
-- [Depth-First Search](./graph-theory/dfs.py)
-- [Strongly Connected Components](./graph-theory/tarjan.py)
+- [Depth-First Search](./graph-theory/basics/dfs.py)
+- [Khan's Topological Sort](./graph-theory/basics/khan.py)
+- [Strongly Connected Components](./graph-theory/basics/tarjan.py)
 
 ### Single-Source Shortest Path (SSSP)
 

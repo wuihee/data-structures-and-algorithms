@@ -6,6 +6,7 @@ Very basic prime factorization algorithm that can be coded on the fly.
 
 import math
 
+
 def prime_factors(n):
     """
     Return all prime factors of n.

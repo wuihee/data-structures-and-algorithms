@@ -14,7 +14,7 @@ def inorder(root):
         3. Traverse right subtree.
 
     Used for getting the nodes in a BST in order, expression evaluation,
-    building a threaded binary tree, checking for a BST, and finding the 
+    building a threaded binary tree, checking for a BST, and finding the
     median of a BST.
 
     Also known as level order traversal.
@@ -48,7 +48,7 @@ def postorder(root):
         3. Visit root.
 
     Used for deleting the tree, expression evaluation, finding the height of
-    a binary tree, finding the diameter of a binary tree, or checking for a 
+    a binary tree, finding the diameter of a binary tree, or checking for a
     full binary tree.
     """
     if root:

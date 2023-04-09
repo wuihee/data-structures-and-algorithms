@@ -65,7 +65,7 @@ def heapify(heap, n, idx):
         largest = left
     if right < n and heap[right] > heap[largest]:
         largest = right
-    
+
     # If parent (i.e. idx) is not the largest, swap with child
     # # (i.e. bubble down.)
     if idx != largest:

@@ -34,12 +34,12 @@ def isIsomorphic(tree1, tree2):
 def encode(node):
     """
     Return a string encoding for the subtree rooted at node.
-    
+
     Parameters
     ----------
     node : Node object.
     """
-    
+
     if not node:
         return ""
 
@@ -62,7 +62,7 @@ def findCenters(tree):
     """
 
     n = len(tree)
-    degrees = [len(tree[i]) for _ in range(n)]
+    degrees = [len(tree[i]) for i in range(n)]
     leaves = []
 
     while leaves:

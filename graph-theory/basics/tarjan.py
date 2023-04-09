@@ -1,7 +1,7 @@
 """
 Tarjan's Algorithm for finding strongly-connected components (SCC) in a graph.
 
-The low-link value of a node is the smallest (lowest) node id reachable from 
+The low-link value of a node is the smallest (lowest) node id reachable from
 that node (including itself) when doing a DFS.
 
 We should be able to find the SCC of the graph buy grouping together similar
@@ -13,7 +13,7 @@ are visited in the DFS.
 Therefore, Tarjan's algorithm uses a stack containing a list of valid nodes
 from which low-link values come from.
 
-Nodes are added to the stack when they're explored for the first time, and are 
+Nodes are added to the stack when they're explored for the first time, and are
 removed each time a complete SCC is found.
 """
 

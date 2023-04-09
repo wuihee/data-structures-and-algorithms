@@ -61,7 +61,7 @@ class HashTable:
             prev = node
             node = node.next
 
-        # Node to delete wasn't found.    
+        # Node to delete wasn't found.
         if not node:
             return None
         else:

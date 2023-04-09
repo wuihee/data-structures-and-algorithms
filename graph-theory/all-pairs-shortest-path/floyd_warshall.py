@@ -92,7 +92,7 @@ def reconstruct_path(graph, path, start, end):
     # Check if there exists a path between the start and end node.
     if graph[start][end] == float('inf'):
         return current_path
-    
+
     # Track current node.
     at = start
     while at != end:
@@ -108,8 +108,6 @@ def reconstruct_path(graph, path, start, end):
     # itself.
     if current_path[at][end] == -1:
         return None
-    
+
     current_path.append(end)
     return current_path
-    
-

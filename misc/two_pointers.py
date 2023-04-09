@@ -38,6 +38,6 @@ def two_pointers(A: list, target: int) -> tuple:
         # If the target is found, return indices i and j.
         else:
             return i, j
-        
+
     # No two elements in A can sum up to target.
     return -1, -1

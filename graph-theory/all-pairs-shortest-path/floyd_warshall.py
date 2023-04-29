@@ -6,15 +6,18 @@ Given a graph, find the shortest path between i, j for all nodes i, j.
 """
 
 
-def floyd_warshall(n, pairs):
+def floyd_warshall(n, pairs) -> tuple[list, list]:
     """
     Find the APSP between all nodes.
 
-    Parameters
-    ----------
-    n - Number of nodes in the graph from 1, ..., n.
-    pairs - pairs[i] = [a, b, w], which represents that node a is connected
-            node b with a weight of w.
+    Args:
+        n (int): Number of nodes in the graph from 1, ..., n.
+        pairs (list[list[int]]): pairs[i] = [a, b, w], which represents that
+                                 node a is connected node b with a weight of w.
+
+    Returns:
+        tuple[list, list]: Returns graph of APSP, and path which reconstructs
+                           the shortest path of each node.
     """
 
     # Initialize adjacency matrix.
@@ -36,7 +39,7 @@ def floyd_warshall(n, pairs):
     for k in range(1, n + 1):
         for i in range(1, n + 1):
             for j in range(1, n + 1):
-                if graph[i][k] + graph[i][j] < graph[i][j]:
+                if graph[i][k] + graph[k][j] < graph[i][j]:
 
                     # FW Recurrence Relation / Relaxation
                     graph[i][j] = graph[i][k] + graph[i][j]

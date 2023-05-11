@@ -1,15 +1,15 @@
 class UnionFind:
-    def __init__(self, n):
+    def __init__(self, n) -> None:
         self.parent = [i for i in range(n)]
         self.rank = [0] * n
 
-    def find(self, x):
+    def find(self, x) -> int:
         """Return the ID/root of element x."""
         if x != self.parent[x]:
             self.parent[x] = self.find(self.parent[x])
         return self.parent[x]
 
-    def union(self, x, y):
+    def union(self, x, y) -> None:
         """Merge elements x and y."""
         x_root = self.find(x)
         y_root = self.find(y)

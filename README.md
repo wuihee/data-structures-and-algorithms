@@ -38,6 +38,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Job Sequencing](./programming-paradigm/greedy/job_sequencing.py)
 - [Optimal Merge Pattern](./programming-paradigm/greedy/optimal_merge_pattern.py)
 - [Huffman Coding](./programming-paradigm/greedy/huffman_coding.py)
+- [Longest Increasing Subsequence with Binary Search](./programming-paradigm/greedy/longest_increasing_subsequence.py)
 
 ### Backtracking
 
@@ -52,6 +53,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 
 - [Rod Cutting Problem](./programming-paradigm/dynamic_programming/classic_problems/rod_cutting.py)
 - [0-1 Knapsack](./programming-paradigm/dynamic_programming/classic_problems/knapsack_0-1.py)
+- [Longest Common Subsequence](./programming-paradigm/dynamic_programming/classic_problems/longest_common_subsequence.py)
 - [Longest Increasing Subsequence](./programming-paradigm/dynamic_programming/classic_problems/LIS.py)
 - [Edit Distance](./programming-paradigm/dynamic_programming/classic_problems/edit_distance.py)
 

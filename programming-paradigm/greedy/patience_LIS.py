@@ -12,6 +12,16 @@ Algorithm
     3b. This is done via binary search.
     4. The final length of the stack is the length of the LIS.
 
+Loop Invariant: The stack always contains the LIS of A[:i]
+    1. Initialization: At A[:0], stack is empty as there is not LIS.
+    2. Maintenance: At each iteration, the element is either added to the stack
+                    or it replaces the smallest element larger than it.
+                    Assuming stack contains LIS for A[:i - 1], adding an
+                    element at A[:i] will undoubtedly yield the LIS. However,
+                    if an element in the stack is replaced instead,
+    3. Termination: When the loop terminates, i becomes len(A) - 1. Thus, the
+                    stack contains the LIS from [0:n].
+
 Time Complexity: O(nlog n)
 """
 

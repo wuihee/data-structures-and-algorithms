@@ -38,7 +38,7 @@ My Python implementation of data structures and algorithms. Work in progress.
 - [Job Sequencing](./programming-paradigm/greedy/job_sequencing.py)
 - [Optimal Merge Pattern](./programming-paradigm/greedy/optimal_merge_pattern.py)
 - [Huffman Coding](./programming-paradigm/greedy/huffman_coding.py)
-- [Longest Increasing Subsequence with Binary Search](./programming-paradigm/greedy/longest_increasing_subsequence.py)
+- [Longest Increasing Subsequence with Binary Search](./programming-paradigm/greedy/patience_LIS.py)
 
 ### Backtracking
 
